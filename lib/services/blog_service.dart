@@ -3,13 +3,14 @@ import 'package:logger/logger.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sembast/sembast.dart';
 import '../logger/FileOutputLogger.dart';
-import '../models/blog.dart';
-import 'package:in307blog_flutter/models/offline_db.dart';
 import 'package:http/http.dart' as http;
+import 'package:in307blog_flutter/models/blog.dart';
+import 'package:in307blog_flutter/models/offline_db.dart';
 
 class BlogService {
   // IP-Adresse des Servers
-  final String baseUrl = 'http://192.168.0.12:3000/blog';
+  // final String baseUrl = 'http://192.168.0.12:3000/blog';
+  final String baseUrl = 'http://192.168.178.23:3000/blog';
   final StoreRef<int, Map<String, dynamic>> _store =
   intMapStoreFactory.store('blogs');
 

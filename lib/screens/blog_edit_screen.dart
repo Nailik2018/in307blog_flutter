@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import '../logger/FileOutputLogger.dart';
-import '../models/blog.dart';
+import 'package:in307blog_flutter/models/blog.dart';
 
 class BlogEditScreen extends StatefulWidget {
   final Blog? blog;
