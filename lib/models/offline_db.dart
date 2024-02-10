@@ -5,8 +5,6 @@ class OfflineDB{
   final path;
   final StoreRef<int, Map<String, dynamic>> _store =
   intMapStoreFactory.store('blogs');
-
-
   OfflineDB({required this.path});
 
   Future<Database> getDatabase() async {
