@@ -2,6 +2,26 @@
 
 A new Flutter project.
 
+## Installation Backend
+
+cd .\in307blog_backend\
+```bash
+docker-compose up -d
+```
+
+Aufruf phpmyadmin: http://localhost:8080/
+```
+Benutername:
+blog
+Passwort:
+blog
+```
+
+Die Daten in data.sql in phpmyadmin importieren oder kopieren
+in307blog_flutter\in307blog_backend\src\sql\data.sql
+
+Aufruf Backend: http://localhost:3000/api
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -14,3 +34,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
