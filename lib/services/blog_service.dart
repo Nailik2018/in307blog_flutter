@@ -27,7 +27,7 @@ class BlogService {
       final offlineDB = OfflineDB(path: dbPath.path + '/offline-blogs/database.db');
 
       // Download images
-      await downloadImages(data, dbPath.path + '/images');
+      await downloadImages(data, dbPath.path + '/images/');
 
       // Löschen der Offline Datenbank
       await offlineDB.delDatabase();
