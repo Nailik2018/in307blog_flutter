@@ -1,16 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:ui';
-import 'package:flutter/cupertino.dart';
 import 'package:logger/logger.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sembast/sembast.dart';
-import '../logger/FileOutputLogger.dart';
 import 'package:http/http.dart' as http;
 import 'package:in307blog_flutter/models/blog.dart';
 import 'package:in307blog_flutter/models/offline_db.dart';
-import 'package:cached_network_image/cached_network_image.dart'; // Importieren Sie diese Klasse
-
+import 'package:in307blog_flutter/logger/FileOutputLogger.dart';
 
 class BlogService {
   // IP-Adresse des Servers

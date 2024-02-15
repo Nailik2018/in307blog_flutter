@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import '../logger/FileOutputLogger.dart';
-// import '../offline.dart';
+import 'package:in307blog_flutter/logger/FileOutputLogger.dart';
 import 'package:in307blog_flutter/services/blog_service.dart';
 import 'package:in307blog_flutter/models/blog.dart';
 import 'package:in307blog_flutter/screens/blog_edit_screen.dart';
