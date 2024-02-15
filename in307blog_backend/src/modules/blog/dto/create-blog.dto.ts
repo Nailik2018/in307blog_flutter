@@ -13,6 +13,6 @@ export class CreateBlogDto {
   description: string;
 
   @IsString()
-  @ApiProperty({ example: 'Blog Image' })
+  @ApiProperty({ example: 'https://ki-lian.ch/in307blog_images/tiny/fuer_den_fuchs.jpg' })
   image?: string;
 }

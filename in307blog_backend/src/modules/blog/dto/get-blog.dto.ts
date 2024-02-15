@@ -14,6 +14,6 @@ export class GetBlogDto {
   @IsNotEmpty()
   description: string;
 
-  @ApiProperty({ example: 'Blog Image' })
+  @ApiProperty({ example: 'https://ki-lian.ch/in307blog_images/tiny/fuer_den_fuchs.jpg' })
   image?: string;
 }
