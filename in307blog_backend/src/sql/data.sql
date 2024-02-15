@@ -1,8 +1,8 @@
 INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('1', 'Thalamkang Guest House ', 'China Blog', 'https://ki-lian.ch/in307blog_images/tiny/china.jpg');
-INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('2', 'Spanien', 'Beschreibung Blog 2', 'https://ki-lian.ch/in307blog_images/tiny/spanien.jpg');
-INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('3', 'Frankreich', 'Beschreibung Blog 3', 'https://ki-lian.ch/in307blog_images/tiny/frankreich.jpg');
-INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('4', 'Schweiz', 'Beschreibung Blog 4', 'https://ki-lian.ch/in307blog_images/tiny/schweiz.jpg');
-INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('5', 'Namaste', 'Beschreibung Blog 5', 'https://ki-lian.ch/in307blog_images/tiny/indien.jpg');
+INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('2', 'Lost Places', 'Spanien Blog', 'https://ki-lian.ch/in307blog_images/tiny/spanien.jpg');
+INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('3', 'Eiffelturm', 'Frankreich Blog', 'https://ki-lian.ch/in307blog_images/tiny/frankreich.jpg');
+INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('4', 'Yes you can see the milky way', 'Schweiz Blog', 'https://ki-lian.ch/in307blog_images/tiny/schweiz.jpg');
+INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('5', 'Namaste', 'Indien Blog', 'https://ki-lian.ch/in307blog_images/tiny/indien.jpg');
 INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('6', 'Honey Hunting', 'Bangladesch Blog', 'https://ki-lian.ch/in307blog_images/tiny/bangladesch.jpg');
 INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('7', 'Localview', 'Hongkong Blog', 'https://ki-lian.ch/in307blog_images/tiny/hongkong.jpg');
 INSERT INTO `blog` (`id`, `title`, `description`, `image`) VALUES ('8', 'Im kleinsten Land der Welt', 'Vatikan Blog', 'https://ki-lian.ch/in307blog_images/tiny/vatikan.jpg');
