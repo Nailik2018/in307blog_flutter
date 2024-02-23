@@ -4,6 +4,12 @@ A new Flutter project.
 
 ## Installation Backend
 
+```
+host file anpassen
+C:\Windows\System32\drivers\etc\hosts
+127.0.0.1 blog_mysql_container
+```
+
 cd .\in307blog_backend\
 ```bash
 docker-compose up -d
