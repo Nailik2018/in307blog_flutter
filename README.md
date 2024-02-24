@@ -23,10 +23,17 @@ Passwort:
 blog
 ```
 
+```
 Die Daten in data.sql in phpmyadmin importieren oder kopieren
 in307blog_flutter\in307blog_backend\src\sql\data.sql
 
 Aufruf Backend: http://localhost:3000/api
+```
+
+```
+Achtung in lib/services/blog_service.dart
+Eigene IP Adresse eingeben (localhost oder 127.0.0.1 funktioniert nicht) Zeile 14
+```
 
 ## Getting Started
 
